@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bggg {
+  background: linear-gradient(
+    257.29deg,
+    rgba(153, 124, 152, 0.6) 6.5%,
+    #ffffff 18.5%,
+    rgba(159, 13, 118, 0.27) 41%,
+    #ffffff 77.5%,
+    rgba(153, 124, 152, 0.4) 90.5%
+  );
+  border-radius: 15px 0px 0px 0px;
+}
+
+.ashish {
+  width: 410.91px;
+  height: 396.29px;
+  top: 1566.39px;
+  left: 1333.2px;
+  gap: 0px;
+  opacity: 0px;
+  transform: 177.16 deg;
+}
