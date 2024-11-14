@@ -130,22 +130,37 @@ function Footer() {
           </div>
           <div className="mt-6 flex justify-center items-center space-x-4 max-sm:hidden bg-black h-8">
             <div className="flex space-x-1  text-white text-xl mr-4 gap-3 max-sm:gap-3">
-              <a href="#" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/company/theassigner/"
+                aria-label="LinkedIn"
+              >
                 <img className="h-5 w-5  " src={img3} />
               </a>
-              <a href="#" aria-label="Infinity">
+              <a
+                href="https://www.facebook.com/profile.php"
+                aria-label="Infinity"
+              >
                 <img className="h-5 w-5  " src={img8} />
               </a>
-              <a href="#" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/theassigner/"
+                aria-label="Instagram"
+              >
                 <img className="h-5 w-5  " src={img4} />
               </a>
-              <a href="#" aria-label="X (Twitter)">
+              <a
+                href="https://twitter.com/the_assigner"
+                aria-label="X (Twitter)"
+              >
                 <img className="h-5 w-5" src={img5} />
               </a>
-              <a href="#" aria-label="WhatsApp">
+              <a
+                href="https://whatsapp.com/channel/0029VaaJiRRKAwEshFl9r30c"
+                aria-label="WhatsApp"
+              >
                 <img className="h-5 w-5 " src={img6} />
               </a>
-              <a href="#" aria-label="Telegram">
+              <a href="https://t.me/assigmentmaker" aria-label="Telegram">
                 <img className="h-5 w-5 " src={img7} />
               </a>
             </div>
@@ -165,22 +180,34 @@ function Footer() {
         </div>
         <div className="mt-6 flex justify-center items-center space-x-4 max-sm:w-full bg-black h-8">
           <div className="flex space-x-1  text-white text-xl mr-4 gap-3 max-sm:gap-3">
-            <a href="#" aria-label="LinkedIn">
+            <a
+              href="https://www.linkedin.com/company/theassigner/"
+              aria-label="LinkedIn"
+            >
               <img className="h-5 w-5  " src={img3} />
             </a>
-            <a href="#" aria-label="Infinity">
+            <a
+              href="https://www.facebook.com/profile.php"
+              aria-label="Infinity"
+            >
               <img className="h-5 w-5  " src={img8} />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/theassigner/"
+              aria-label="Instagram"
+            >
               <img className="h-5 w-5  " src={img4} />
             </a>
-            <a href="#" aria-label="X (Twitter)">
+            <a href="https://twitter.com/the_assigner" aria-label="X (Twitter)">
               <img className="h-5 w-5" src={img5} />
             </a>
-            <a href="#" aria-label="WhatsApp">
+            <a
+              href="https://whatsapp.com/channel/0029VaaJiRRKAwEshFl9r30c"
+              aria-label="WhatsApp"
+            >
               <img className="h-5 w-5 " src={img6} />
             </a>
-            <a href="#" aria-label="Telegram">
+            <a href="https://t.me/assigmentmaker" aria-label="Telegram">
               <img className="h-5 w-5 " src={img7} />
             </a>
           </div>

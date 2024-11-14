@@ -13,6 +13,7 @@ import s11 from "../icons2/s11.png";
 import s12 from "../icons2/s12.png";
 import s13 from "../icons2/s13.png";
 import s14 from "../icons2/s14.png";
+import { FaStar } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -27,227 +28,311 @@ const Services = () => {
           </p>
         </div>
         <div className="grid grid-cols-3 lg:grid-cols-4 gap-6">
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s1}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[10px] font-semibold">
               Assignment
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 max-sm:text-[5px] flex">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(178)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px] ">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s2}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[10px] font-semibold">
               Dissertation
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(150)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s3}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[7px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[7px] font-semibold">
               Course Work
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(120)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s4}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[10px] font-semibold">
               Thesis
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(129)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s5}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[10px] font-semibold">
               Essay
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(47)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s6}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[10px] font-semibold">
               Research
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(59)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s7}
                 alt=""
               />
             </a>
-            <h2 className="mt-3 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-3 text-lg leading-4 max-sm:text-[10px] font-semibold">
               Power Point Presentation
             </h2>
-            <div className="mt-0 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-0 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(89)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s8}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[8px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[8px] font-semibold">
               Programming
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(134)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s9}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[7px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[7px] font-semibold">
               Paper Writing
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(193)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s10}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[10px] font-semibold">
               Case Study
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(125)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s11}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[7px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[7px] font-semibold">
               Speech Writing
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(100)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s12}
                 alt=""
               />
             </a>
-            <h2 className="mt-3 text-lg max-sm:text-[10px] font-semibold">
+            <h2 className="mt-3 text-lg leading-4 max-sm:text-[7px] font-semibold">
               Term Paper Writing
             </h2>
-            <div className="mt-0 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-0 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(135)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s13}
                 alt=""
               />
             </a>
-            <h2 className="mt-3 text-lg max-sm:text-[7px] font-semibold">
+            <h2 className="mt-3 text-lg leading-4 max-sm:text-[7px] font-semibold">
               Cover Letter Writing
             </h2>
-            <div className="mt-0 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
-              <span className="ml-1 text-gray-500">(120)</span>
+            <div className="mt-0 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
+              <span className="ml-1 text-gray-500">(135)</span>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[200px]">
+          <div class="max-w-sm bg-white border border-black rounded-lg shadow h-[300px] max-sm:h-[130px]">
             <a href="#">
               <img
-                class="rounded-t-lg h-[200px] max-sm:h-[120px] w-full object-cover"
+                class="rounded-t-lg h-[200px] max-sm:h-[65px] w-full object-cover"
                 src={s14}
                 alt=""
               />
             </a>
-            <h2 className="mt-4 text-lg max-sm:text-[7px] font-semibold">
+            <h2 className="mt-4 text-lg leading-4 max-sm:text-[7px] font-semibold">
               Resume Maker
             </h2>
-            <div className="mt-2 text-purple-500 max-sm:text-[5px]">
-              <span>⭐⭐⭐⭐⭐</span>
+            <div className="mt-2 text-purple-500 flex max-sm:text-[5px]">
+              <span className="flex">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </span>
               <span className="ml-1 text-gray-500">(132)</span>
             </div>
           </div>

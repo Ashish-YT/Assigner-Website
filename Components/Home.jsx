@@ -1,5 +1,8 @@
 import img2 from "../Icons/2.png";
 import Navbar from "./Navbar";
+import { FaFolderOpen } from "react-icons/fa6";
+import { RiSchoolFill } from "react-icons/ri";
+import { PiUsersThreeFill } from "react-icons/pi";
 
 function Home() {
   return (
@@ -35,19 +38,28 @@ function Home() {
           <div className="py-4 md:py-6 px-2 md:px-10 mx-auto max-w-4xl flex justify-between items-center space-x-2 md:space-x-8">
             <div className="text-center">
               <p className="text-xl md:text-6xl font-bold">350+</p>
-              <p className="text-gray-600 text-xs md:text-sm mt-1">
-                📁 Study resources
-              </p>
+              <div className="flex">
+                <FaFolderOpen />
+                <p className="text-gray-600 text-xs md:text-sm mt-1">
+                  Study resources
+                </p>
+              </div>
             </div>
             <div className="text-center">
               <p className="text-xl md:text-6xl font-bold">115+</p>
-              <p className="text-gray-600 text-xs md:text-sm mt-1">
-                🏛️ Institutions
-              </p>
+              <div className="flex">
+                <RiSchoolFill />
+                <p className="text-gray-600 text-xs md:text-sm mt-1">
+                  Institution
+                </p>
+              </div>
             </div>
             <div className="text-center">
               <p className="text-xl md:text-6xl font-bold">700+</p>
-              <p className="text-gray-600 text-xs md:text-sm mt-1">👤 Users</p>
+              <div className="flex">
+                <PiUsersThreeFill />
+                <p className="text-gray-600 text-xs md:text-sm mt-1">Users</p>
+              </div>
             </div>
           </div>
         </div>

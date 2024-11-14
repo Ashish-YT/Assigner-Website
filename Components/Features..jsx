@@ -3,8 +3,10 @@ import React from "react";
 const FeatureCard = ({ icon, title, description }) => (
   <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md border border-black hover:shadow-lg transition-shadow duration-300">
     <img src={icon} alt={title} className="w-16 h-16 mb-4" />
-    <h3 className="text-lg font-semibold text-gray-800 mb-2">{title}</h3>
-    <p className="text-gray-600 text-center">{description}</p>
+    <h3 className="text-lg leading-4 font-semibold text-gray-800 mb-2">
+      {title}
+    </h3>
+    <p className="text-gray-600 leading-4 text-center">{description}</p>
   </div>
 );
 

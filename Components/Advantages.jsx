@@ -2,8 +2,10 @@ import React from "react";
 
 const FeatureCard1 = ({ title, description }) => (
   <div className="flex flex-col items-center p-6 bg-[#EE481447] rounded-lg shadow-md border border-black hover:shadow-lg transition-shadow duration-300">
-    <h3 className="text-lg font-semibold text-gray-800 mb-2">{title}</h3>
-    <p className="text-gray-600 text-center">{description}</p>
+    <h3 className="text-lg font-semibold text-gray-800 max-sm:leading-4 mb-2">
+      {title}
+    </h3>
+    <p className="text-gray-600 max-sm:leading-4 text-center">{description}</p>
   </div>
 );
 
