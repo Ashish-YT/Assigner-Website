@@ -42,7 +42,7 @@ function Faq() {
               onClick={() => toggleFAQ(index)}
               className="w-full text-left flex justify-between items-center focus:outline-none"
             >
-              <span className="text-lg max-sm:text-[7px] font-medium text-gray-800">
+              <span className="text-lg max-sm:text-[15px] font-medium text-gray-800">
                 {faq.question}
               </span>
               <svg

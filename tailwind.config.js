@@ -17,10 +17,7 @@ export default {
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
       },
-      animation: {
-        fadeIn: 'fadeIn 1s ease-out forwards',
-        slideUp: 'slideUp 1s ease-out forwards',
-      },
+      
     },
   },
   plugins: [],
